@@ -1,8 +1,20 @@
 # photoscan_project
 
+
 Commands to run script:
-```
+```bash
 $ photoscan -r /path/to/process_project.py --file /path/to/project.psx
+```
+Run command in tmux terminal window to run in background.
+
+```bash
+$ tmux
+```
+
+Start process and exit using ```Cntrl-D```. To rejoin process use:
+
+```bash
+$ tmux attach-session
 ```
 
 
