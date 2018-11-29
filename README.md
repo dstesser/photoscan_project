@@ -11,7 +11,7 @@ Run command in tmux terminal window to run in background.
 $ tmux
 ```
 
-Start process and exit using ```Cntrl-D```. To rejoin process use:
+Start process and exit using ```Ctrl-B + D```. To rejoin process use:
 
 ```bash
 $ tmux attach-session
