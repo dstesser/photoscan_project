@@ -1,10 +1,10 @@
 # photoscan_project
-## camera calibration
+## camera calibration calculated adjusted
  
 
-|Camera |abc|abc|abc|  
+|Camera ||||  
 |---|---|---|---|  
-|f:| 3516.110433	|	Calculated|	adjusted|  
+|f:| 3516.110433	|	 |	 |  
 |cx:|	-49.2002547|	b1:|0	|  
 |cy:|	259.0410213|	b2:|0	|  
 |k1:|	0.0540362|	p1:| -0.012976|  
