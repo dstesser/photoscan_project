@@ -1,8 +1,31 @@
 # photoscan_project
-## camera calibration calculated adjusted
  
+## Steps:
+1. Command line launch $photoscan
+2. Start a new project
+3. Create new chunks, one for each drone flight "pass" over site.
+4. Load pictures (cams) into appropriate chunks by flight time. Check that all photos in a chunk should be from the same drone flight "pass."
+4.5 Manually remove outlier (take-off, landing) cams that do not align
+5. Open 'Tool->Camera Calibration'
+6. Set type to "Precalibrated".
+7. Check "Fix calibration"
+8. Enter values for f:....p4: from calibration table on Github
+9. Save these parameters. You can call them again in future projects.
+10. If using multiple chunks, check to see if calibration parameters are the same for all chunks. Make changes as needed so all are the same.
+11. Save project and close photoscan
+12. Run project with commands below
 
-|Camera ||||  
+
+$$$TIPS$$$
+You may have to execute the files from this directory: /opt/photoscan-pro/photoscan.sh
+
+Two strategies for running tests:
+a) Select only a few photos that overlap (~7-10)
+or
+b) in .py file change run settings (in your personal copy, not on github)
+
+### camera calibration calculated adjusted
+|Camera |Calibration|||  
 |---|---|---|---|  
 |f:| 3516.110433	|	 |	 |  
 |cx:|	-49.2002547|	b1:|0	|  
