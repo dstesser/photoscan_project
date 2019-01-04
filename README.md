@@ -13,7 +13,8 @@
 9. Save these parameters. You can call them again in future projects.
 10. If using multiple chunks, check to see if calibration parameters are the same for all chunks. Make changes as needed so all are the same.
 11. Save project and close photoscan
-12. Run project with commands below
+12. Change to /opt directory to run process by:   $ cd /opt/photoscan-pro
+13. Run project with commands below
 
 
 $$$TIPS$$$
@@ -44,7 +45,7 @@ b) in .py file change run settings (in your personal copy, not on github)
 
 Commands to run script:
 ```bash
-$ photoscan -r /path/to/process_project.py --file /path/to/project.psx
+$ ./photoscan.sh -r /path/to/process_project.py --file /path/to/project.psx
 ```
 Run command in tmux terminal window to run in background.
 
